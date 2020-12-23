@@ -21,7 +21,7 @@ Functional Programming is a programming paradigm. In essence, it is a pattern, a
 In its purest form, Functional Programming builds programs by applying and composing functions.
 
 The Functional Programming paradigm can be contrasted with its widely adopted alternative. Object-Oriented Programming (OOP), the alternative, is currently the major player in the programming landscape.  OOP's paradigm promotes building programs with a set of objects interacting with each other.
-Functional Programming (FP) is part of a larger family of Procedural Programming Languages.  Procedural languages approach the solution to a problem through a combination of functions. On the other side, OOP is largely viewed as part of the family of Imperative Languages. In contrast to the first group, these languages solve problems by giving a sequence of step-by-step sets of instructions to solve a problem. 
+Functional Programming (FP) is part of a larger family of Declarative Programming Languages.  Declarative languages approach the solution to a problem through a combination of functions. On the other side, OOP is largely viewed as part of the family of Imperative Languages. In contrast to the first group, these languages solve problems by giving a sequence of step-by-step sets of instructions to solve a problem. 
 
 Interestingly enough, it happens that Functional Programming has been around longer than Object Oriented has. Why is it not as popular as its counterpart? Much can be said about it. And much has been said about it. Suffice to say for now that, lately, there has been a renewed interest in the concepts of FP. There has also been a considerable amount of effort aimed at bringing it back to the forefront of the programming landscape. The push is to have FP become another major player in the ecosystem.
 
@@ -127,7 +127,7 @@ This fact actually allows one pretty interesting construct: ***Higher Order Func
 Basically, a *higher order function* is a function that receives another function as one of its inputs.
 
 This pattern can be used to augment a function:
-<!-- {% gist 283513b97082455bb74fe3380c4f332d %} -->
+<!-- {% gist f9698897cc23aa90b5f17392958191c0 %} -->
 
 
 
@@ -140,7 +140,7 @@ This pattern can be used to augment a function:
 There is much more to be said about Functional Programming and books have been written on the subject. The goal of this article was to introduce some of the concepts that are relevant in the life of the Software Developper with OOP Experience. 
 
 One question seems to remain unaddressed: If side effects are to be avoided, how can FP be used in real worlds where side effects such file interaction, or network requests, database queries are essential aspects to solving business problems. We will address this in the next part of this article:
-[http://127.0.0.1:4000/posts/introduction-to-fp-in-js-applied](http://127.0.0.1:4000/posts/introduction-to-fp-in-js-concepts)
+[Introduction To Functional Programming in Javascript: Examples](/posts/introduction-to-fp-in-js-concepts)
 
 Much of these concepts aren't new per say. These concepts have however acquired terminology and have been emphasized. For example, it is quite intuitive to be wary of making network requests everywhere in your code where external data is needed. Chances are you will have the wisdom to carefully design where and how network requests are handled. Some of the reason you would want to do that are: 
 - To ease maintenance, testing but also,
